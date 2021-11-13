@@ -1,1 +1,1 @@
-C:\github\SaarEzagouri980.github.io\students\wis-advanced-python-2021-2022\students ## please write the path for the JSON files before the ##.
+C:\github\SaarEzagouri980.github.io\students\wis-advanced-python-2021-2022\students ## please replace the existing path before the ## with a path for the JSON files that you cloned. Do not remove the ##.
