@@ -24,8 +24,8 @@ Outside of the lab I am sports registered dietitian and strength and conditionin
 **biotools.my_pca(df,conditions,pc_x,pc_y)** <br>
 Plot principal component analysis resutlts. <br>
 **Parameters:** <br>
-<pre> df: a transposed dataframe. first column contains the conditions (experimental groups) and the rest are features. <br>
-<pre> conditions: a string, the column name of the conditions in df.<br>
+&Tab df: a transposed dataframe. first column contains the conditions (experimental groups) and the rest are features. <br>
+&Tab conditions: a string, the column name of the conditions in df.<br>
 
 **cluster_calc(matrix,k0,kn)** 
 Calculates the optimal clusters based on K-means clustering. The functions scales the data to z-scores before clustering.
