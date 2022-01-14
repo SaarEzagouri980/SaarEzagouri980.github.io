@@ -16,15 +16,14 @@ Outside of the lab I am sports registered dietitian and strength and conditionin
 **cluster_calc:** calculates the optimal clusters based on K-means clustering.
 **k_clustered_hm:** plot a k-means clustered heatmap, based on a desired number of clusters.
 **top_bottom:** plot the most changing features in a given data, between conditions.
+**plot_feature:** plot a feature across a given list of conditions.
 **enrichr_clusters:** compare enrichment terms between group of genes i.e. clusters.
 
 # Documentation:
 **biotools.my_pca(df,conditions,pc_x,pc_y)**
 Plot principal component analysis resutlts.
-NOTE that the data scaled within the function by StandardScaler().
 **Parameters:** df: a transposed dataframe. first column contains the conditions (experimental groups) and the rest are features.
                 conditions: a string, the column name of the conditions in df.
-                pc_x,pc_y = a string, the principal component to plot. Should written in the format of 'PC1', 'PC2' etc. 
 
 **cluster_calc(matrix,k0,kn)** 
 Calculates the optimal clusters based on K-means clustering. The functions scales the data to z-scores before clustering.
@@ -47,6 +46,14 @@ Plot the most changing features in a given data, between conditions.
                 groups: a list of 2 groups to compare.
                 top, bottom: an integer, the number of results from the head and tail of a sorted dataframe in a descending order (head is highest).
 
+**plot_feature(names,groups,targets,df,ylimits = 50)** 
+Plot list of features across given conditions or experimental groups.
+**Parameters:** names: list of features.
+                groups: list of strings corresponds to column names to will be grouped together for calculating mean and sem.
+                targets: a string, column name in dataframe that contains features names e.g. 'Gene Symbol' 
+                df: a dataframe with the data.
+                ylimits: y axis limits can be changed for better visualization
+                
 **enrichr_clusters (gene_list,organism,gene_set,background=20000,cutoff=0.05)** 
 Compare enrichment terms between group of genes i.e. clusters.
 This function has based on GSEAPY's enrichr, but is adapted to publishing considerations where a user will want to spot enrichment differences between groups.
@@ -64,8 +71,17 @@ for gene_set in len(range(datasets)):
 **Returns:** df_list, enrichment results of all clusteres analyzed for a given dataset.
 For more information please refer to GSEApy's docummentation at <a href="https://gseapy.readthedocs.io/en/latest/gseapy_example.html#2.-Enrichr-Example"> GSEApy Docs </a>
 
-# Get Biotools:
-<a href="https://saarezagouri980.github.io/Biotools/"> Biotools</a>
+# Downloads:
+<a href="https://gseapy.readthedocs.io/en/latest/gseapy_example.html#2.-Enrichr-Example"> Biotools Repository </a>
+# Dependency:
+Numpy,Scipy,Pandas, Matplotlib, Seaborn, GSEAPY, sklearn.
+The following are required for all functions of this module and can be copied to your code for your own convinience:
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+
+
 
 
 
