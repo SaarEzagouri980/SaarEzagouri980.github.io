@@ -1,7 +1,7 @@
 # Welcome to BioPyTools Documentaion
 Version 1 , January 2022
 
-The main aim of this module is to make the life of molecular biologists easier, thus it adapts well established python functions to biological needs. <br>
+The main aim of this module is to make the life of molecular biologists easier, thus it adapts well established python functions to daily needs of biologists. <br>
 These functions were tested on transcriptomics, metabolomics, proteomics and phospho-proteomics datasets, in which the dataframes are usually composed of a matrix + a column corresponding the values of each row to a target of interest i.e. a gene, metabolite etc. Henceforth, the word 'features' will represent genes, metabolites, proteins etc. <br>
 This is the first version and I am open for ideas of how this module can be improved. <br>
 my mail: sezagouri@gmail.com.
@@ -10,7 +10,7 @@ my mail: sezagouri@gmail.com.
 My name is Saar Ezagouri, a PhD student at the lab of Gad Asher / Weizmann Institute of Science / Israel. <br>
 We study the role of circadian rhythms in metabolism, in particular I study the interaction between physical exercise and the circadian clock. <br>
 Outside of the lab I am sports registered dietitian and strength and conditioning trainer. <br>
-<a href="linkedin.com/in/saar-ezagouri-959a8b1a8"> My Linkdin </a>
+<a href="linkedin.com/in/saar-ezagouri-959a8b1a8"> My LinkedIn </a>
 
 # List of functions included: <br>
 **my_pca:** plot principal component analysis resutlts. <br>
@@ -23,8 +23,9 @@ Outside of the lab I am sports registered dietitian and strength and conditionin
 # Documentation: <br>
 **biotools.my_pca(df,conditions,pc_x,pc_y)** <br>
 Plot principal component analysis resutlts. <br>
-**Parameters:** <p> df: a transposed dataframe. first column contains the conditions (experimental groups) and the rest are features. <br>
-                conditions: a string, the column name of the conditions in df. </p><br>
+**Parameters:** <br>
+<pre> df: a transposed dataframe. first column contains the conditions (experimental groups) and the rest are features. <br>
+<pre> conditions: a string, the column name of the conditions in df.<br>
 
 **cluster_calc(matrix,k0,kn)** 
 Calculates the optimal clusters based on K-means clustering. The functions scales the data to z-scores before clustering.
