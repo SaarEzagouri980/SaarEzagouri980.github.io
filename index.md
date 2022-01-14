@@ -21,6 +21,7 @@ Outside of the lab I am sports registered dietitian and strength and conditionin
 # Documentation:
 **biotools.my_pca(df,conditions,pc_x,pc_y)**
 Plot principal component analysis resutlts.
+NOTE that the function does not tranform the data. If transformation / scaling of the data prior to the PCA is desired it should be performed.
 **Parameters:** df: a transposed dataframe. first column contains the conditions (experimental groups) and the rest are features.
                 conditions: a string, the column name of the conditions in df.
 
