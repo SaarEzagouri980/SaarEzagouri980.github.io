@@ -1,15 +1,17 @@
 # Welcome to BioPyTools Documentaion
 Version 1 , January 2022
 
-The main aim of this module is to make the life of molecular biologists easier, thus it adapts well established python functions to daily needs of biologists. <br>
-These functions were tested on transcriptomics, metabolomics, proteomics and phospho-proteomics datasets, in which the dataframes are usually composed of a matrix + a column corresponding the values of each row to a target of interest i.e. a gene, metabolite etc. Henceforth, the word 'features' will represent genes, metabolites, proteins etc. <br>
+The main aim of this module is to make the life of molecular biologists easier, thus it tailors well established python functions to daily needs of biologists. <br>
+These functions were tested on transcriptomics, metabolomics, proteomics and phospho-proteomics databases, in which the dataframes are often composed of a matrix + a column of keys or value identifiers i.e. a gene, metabolite, protein etc. <br>
+Henceforth, the word 'features' will represent genes, metabolites, proteins etc. <br>
+
 This is the first version and I am open for ideas of how this module can be improved. <br>
 my mail: sezagouri@gmail.com.
 
 # About me: <br>
 My name is Saar Ezagouri, a PhD student at the lab of Gad Asher / Weizmann Institute of Science / Israel. <br>
 We study the role of circadian rhythms in metabolism, in particular I study the interaction between physical exercise and the circadian clock. <br>
-Outside of the lab I am sports registered dietitian and strength and conditioning trainer. <br>
+Outside of the lab I am sports registered dietitian (RD) and strength and conditioning trainer. <br>
 <a href="https://www.linkedin.com/in/saar-ezagouri-959a8b1a8/"> My LinkedIn </a>
 
 # List of functions included: <br>
