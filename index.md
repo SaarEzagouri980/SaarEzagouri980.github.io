@@ -10,7 +10,7 @@ my mail: sezagouri@gmail.com.
 My name is Saar Ezagouri, a PhD student at the lab of Gad Asher / Weizmann Institute of Science / Israel. <br>
 We study the role of circadian rhythms in metabolism, in particular I study the interaction between physical exercise and the circadian clock. <br>
 Outside of the lab I am sports registered dietitian and strength and conditioning trainer. <br>
-<a href="linkedin.com/in/saar-ezagouri-959a8b1a8"> My LinkedIn </a>
+<a href="https://www.linkedin.com/in/saar-ezagouri-959a8b1a8/"> My LinkedIn </a>
 
 # List of functions included: <br>
 - **my_pca:** plot principal component analysis resutlts. <br>
@@ -82,9 +82,10 @@ For more information please refer to GSEApy's docummentation at <a href="https:/
 <a href="https://saarezagouri980.github.io/BioPyTools/"> BioPyTools Repository </a>
 # Dependency: <br>
 - Numpy,Scipy,Pandas, Matplotlib, Seaborn, GSEAPY, sklearn. <br>
+
 The following are required for all functions of this module and can be copied to your code for your own convinience: <br>
 
-- import pandas as pd <br>
-- import matplotlib.pyplot as plt <br>
-- import numpy as np <br>
-- import seaborn as sns
+import pandas as pd <br>
+import matplotlib.pyplot as plt <br>
+import numpy as np <br>
+import seaborn as sns
