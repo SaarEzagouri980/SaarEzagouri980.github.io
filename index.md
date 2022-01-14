@@ -21,9 +21,10 @@ Outside of the lab I am sports registered dietitian and strength and conditionin
 # Documentation:
 **biotools.my_pca(df,conditions,pc_x,pc_y)**
 Plot principal component analysis resutlts.
-NOTE that the function does not tranform the data. If transformation / scaling of the data prior to the PCA is desired it should be performed.
+NOTE that the data scaled within the function by StandardScaler().
 **Parameters:** df: a transposed dataframe. first column contains the conditions (experimental groups) and the rest are features.
                 conditions: a string, the column name of the conditions in df.
+                pc_x,pc_y = a string, the principal component to plot. Should written in the format of 'PC1', 'PC2' etc. 
 
 **cluster_calc(matrix,k0,kn)** 
 Calculates the optimal clusters based on K-means clustering. The functions scales the data to z-scores before clustering.
