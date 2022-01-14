@@ -79,7 +79,7 @@ cutoff=0.05 (default). significance threshold . <br>
 For more information please refer to GSEApy's docummentation at <a href="https://gseapy.readthedocs.io/en/latest/gseapy_example.html#2.-Enrichr-Example"> GSEApy Docs </a>
 
 # Downloads: <br>
-<a href="https://gseapy.readthedocs.io/en/latest/gseapy_example.html#2.-Enrichr-Example"> BioPyTools Repository </a>
+<a href="https://saarezagouri980.github.io/BioPyTools/"> BioPyTools Repository </a>
 # Dependency: <br>
 - Numpy,Scipy,Pandas, Matplotlib, Seaborn, GSEAPY, sklearn. <br>
 The following are required for all functions of this module and can be copied to your code for your own convinience: <br>
