@@ -53,14 +53,18 @@ names: a string, the name of the column containing the names of the features. <b
 groups: a list of 2 groups to compare. <br>
 top, bottom: an integer, the number of results from the head and tail of a sorted dataframe in a descending order (head is highest).
 
-**plot_feature(names,groups,targets,df,ylimits = 50)** <br>
+**plot_feature(names,groups,targets,df,colors=sns.color_palette("tab10"),ylab = 'Normalized Expression',ci='sd')** <br>
 Plot list of features across given conditions or experimental groups. <br>
 **Parameters:** <br>
 names: list of features. <br>
 groups: list of strings corresponds to column names to will be grouped together for calculating mean and sem. <br>
 targets: a string, column name in dataframe that contains features names e.g. 'Gene Symbol'.  <br>
 df: a dataframe with the data. <br>
-ylimits: y axis limits can be changed for better visualization
+colors: set palette as in seaborn's barplot. See <a href="https://seaborn.pydata.org/tutorial/color_palettes.html
+"> Choosing Color Palettes </a> <br>
+ylab: a string for y axis label. 'Normalized expression' by default.
+ci: confience interval, a string or a float. 'sd', Standard Deviation by default. Set the desired error bar as in seaborn's plots (0.68 = SEM). <br> 
+See <a href="https://seaborn.pydata.org/generated/seaborn.barplot.html"> Seaborn Barplot </a> 
                 
 **enrichr_clusters (gene_list,organism,gene_set,background=20000,cutoff=0.05)** <br>
 Compare enrichment terms between group of genes i.e. clusters. <br>
