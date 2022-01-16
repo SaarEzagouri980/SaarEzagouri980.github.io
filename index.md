@@ -11,7 +11,7 @@ This is the first version and I am open for ideas of how this module can be impr
 my mail: sezagouri@gmail.com.
 
 # About me: <br>
-My name is Saar Ezagouri, a PhD student at the lab of Gad Asher / Weizmann Institute of Science / Israel. <br>
+My name is Saar Ezagouri, a PhD student in the lab of Prof. Gad Asher / Weizmann Institute of Science / Israel. <br>
 We study the role of circadian rhythms in metabolism, in particular I study the interaction between physical exercise and the circadian clock. <br>
 Outside of the lab I am a sports registered dietitian (RD) and strength and conditioning trainer. <br>
 <a href="https://www.linkedin.com/in/saar-ezagouri-959a8b1a8/"> My LinkedIn </a>
