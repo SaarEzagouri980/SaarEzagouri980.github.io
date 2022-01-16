@@ -1,6 +1,6 @@
 # Welcome to BioPyTools Documentation
-Version 1 , January 2022
-© Copyright 2022, Saar Ezagouri
+Version 1 , January 2022 <br>
+© Copyright 2022, Saar Ezagouri <br>
 Created with the help and under the supervision of <a href="https://code-maven.com/services"> Mr. Gabor Szabo </a>.
 
 The main aim of this module is to make the life of molecular biologists easier, thus it tailors well established python functions to daily needs of biologists. <br>
