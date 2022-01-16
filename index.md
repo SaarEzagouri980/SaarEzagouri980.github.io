@@ -9,7 +9,7 @@ Henceforth, the word 'features' will represent genes, metabolites, proteins etc.
 
 This is the first version and I am open for ideas of how this module can be improved. <br>
 my mail: sezagouri@gmail.com.
-https://www.weizmann.ac.il/Biomolecular_Sciences/Asher/
+
 # About me: <br>
 My name is Saar Ezagouri, a PhD student in the <a href="https://www.weizmann.ac.il/Biomolecular_Sciences/Asher/"> lab of Prof. Gad Asher / Weizmann Institute of Science / Israel.</a> <br>
 We study the role of circadian rhythms in metabolism, in particular I study the interaction between physical exercise and the circadian clock. <br>
