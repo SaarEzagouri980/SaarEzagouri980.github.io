@@ -1,5 +1,7 @@
 # Welcome to BioPyTools Documentation
 Version 1 , January 2022
+© Copyright 2022, Saar Ezagouri
+Created with the help and under the supervision of <a href="https://code-maven.com/services"> Mr. Gabor Szabo </a>.
 
 The main aim of this module is to make the life of molecular biologists easier, thus it tailors well established python functions to daily needs of biologists. <br>
 These functions were tested on transcriptomics, metabolomics, proteomics and phospho-proteomics databases, in which the dataframes are often composed of a matrix + a column of keys or value identifiers i.e. a gene, metabolite, protein etc. <br>
