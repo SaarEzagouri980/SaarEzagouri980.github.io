@@ -3,7 +3,7 @@ Version 1 , January 2022. <br>
 © Copyright 2022, Saar Ezagouri. <br>
 Created with the help and under the supervision of <a href="https://code-maven.com/services"> Mr. Gabor Szabo </a>.
 
-The main aim of this module is to make the life of molecular biologists easier, thus it tailors well established python functions to daily needs of biologists. <br>
+The main aim of this module is to make the life of molecular biologists easier, thus it tailors well established python functions to the daily needs of biologists. <br>
 These functions were tested on transcriptomics, metabolomics, proteomics and phospho-proteomics databases, in which the dataframes are often composed of a matrix + a column of keys or value identifiers i.e. a gene, metabolite, protein etc. <br>
 Henceforth, the word 'features' will represent genes, metabolites, proteins etc. <br>
 
